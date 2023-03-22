@@ -17,10 +17,7 @@ const gwiazda = add([
     pos(300,30)
 ])
 
-add([
-    play("muzyka")
-
-])
+onMouseRelease(()=>play("muzyka"))
 
 let lewo=true
 
